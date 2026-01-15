@@ -36,12 +36,11 @@ music-mood-classifier/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/music-mood-classifier.git
+   git clone https://github.com/<your-Codeomii>/music-mood-classifier.git
    cd music-mood-classifier
 Create virtual environment:
 
-bash
-python -m venv .venv
+ -m venv .venv
 Activate environment:
 
 Windows (PowerShell):
@@ -54,26 +53,23 @@ cmd
 .venv\Scripts\activate.bat
 Linux/Mac:
 
-bash
 source .venv/bin/activate
 Install dependencies:
 
-bash
 pip install -r requirements.txt
+
 ▶️ Usage
 Train models
 
 For lyrics dataset:
 
-bash
-python src/train.py
+src/train.py
 For Spotify dataset:
 
-bash
-python src/train.py
+ src/train.py
 (choose dataset type inside train.py)
 
 Run Streamlit app:
 
-bash
+
 streamlit run app.py
